@@ -1,7 +1,7 @@
 
 public class MainFrame extends JFrame{
     public String[] PanelNames = {"main","register","edit"};//この名前でパネルの指定をする
-
+//
     //各種パネルを作成
     MainPanel mainPanel = new MainPanel(this,PanelNames[0]);
     TaskRegisterPanel taskRegisterPanel = new TaskRegisterPanel(this,PanelNames[1]);
